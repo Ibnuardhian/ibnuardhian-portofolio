@@ -33,8 +33,9 @@ const Navigation = () => {
             <NavItem active={activeSection === 'about' ? true : false} href='#about' num='01' name="ABOUT"></NavItem>
             <NavItem active={activeSection === 'experiences' ? true : false} href='#experiences' num='02' name="EXPERIENCES"></NavItem>
             <NavItem active={activeSection === 'education' ? true : false} href='#education' num='03' name="EDUCATION"></NavItem>
-            <NavItem active={activeSection === 'volunteering' ? true : false} href='#volunteering' num='04' name="VOLUNTEERING"></NavItem>
-            <NavItem active={(activeSection === 'projects') || (activeSection === 'credits') ? true : false} href='#projects' num='05' name="PROJECTS"></NavItem>
+            <NavItem active={activeSection === 'freelance-projects' ? true : false} href='#freelance-projects' num='04' name="FREELANCE PROJECTS"></NavItem>
+            <NavItem active={activeSection === 'personal-projects' ? true : false} href='#personal-projects' num='05' name="PERSONAL PROJECTS"></NavItem>
+            {/* <NavItem active={activeSection === 'volunteering' ? true : false} href='#volunteering' num='06' name="VOLUNTEERING"></NavItem> */}
         </div>
     )
 }

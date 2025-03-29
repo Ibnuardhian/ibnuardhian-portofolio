@@ -15,13 +15,14 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center py-24 px-6 lg:px-24">
       <div className="z-2 w-full max-w-5xl font-mono text-sm flex flex-col lg:flex-row justify-between">
-        <Header data={data.general}></Header>
+        <Header data={data.general} typewriterStrings={data.general.typewriterStrings}></Header>
         <div className='lg:pl-[50%]'>
           <About data={data.general}></About>
           <Experiences data={data.experiences}></Experiences>
           <Education data={data.education}></Education>
-          <Volunteering data={data.volunteering}></Volunteering>
-          <Projects data={data.projects}></Projects>
+          <Projects id="freelance-projects" title="Freelance Projects" data={data.freelanceProjects}></Projects>
+          <Projects id="personal-projects" title="Personal Projects" data={data.personalProjects}></Projects>
+          {/* <Volunteering data={data.volunteering}></Volunteering> */}
           <Credits data={data.general}></Credits>
         </div>
       </div>

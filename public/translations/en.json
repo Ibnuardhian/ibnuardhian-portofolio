@@ -1,78 +1,51 @@
 {
     "general": {
-        "name": "Name Surname",
-        "headline": "Short headline about yourself",
+        "name": "Muhammad Ibnu Ardhiansyah",
+        "headline": "I'm a self-taught",
+        "typewriterStrings": ["Backend Developer.", "Database Engineer.", "Fullstack Developer"],
+        "headlineSuffix": "with a proven ability to quickly learn and apply new technologies to build robust and scalable solutions.",
         "about": [
             "Hey there! 👋",
-            "This should be a first short paragraph about yourself. Tell us something about yourself, your education or your career.",
-            "And why not adding a second paragraph? Then you can tell us more about your hobbies and your life. Some people will read it and be happy to get to know you a little better."
+            "Information Systems student leveraging web development and database administration skills to excel as a Backend Developer, Data Engineer, and Fullstack Developer. Proficient in various programming languages and databases. Highly curious, passionate about technology, and adept at solving complex problems innovatively.",
+            "I'm a gamer and Freelance badminton player"
         ],
         "socials": {
-            "email": "example@mail.com",
-            "linkedin": "https://www.linkedin.com/",
-            "github": "https://github.com/"
+            "email": "ibnuardhian@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/ibnuardhian",
+            "github": "https://github.com/Ibnuardhian/"
         }
     },
     "experiences": [
         {
-            "title": "Position Title",
-            "company": "Company Name",
+            "title": "Associate Product Manager Intern",
+            "company": "PT. Electronic Data Interchange Indonesia",
             "href": "",
-            "startDate": "10/2023",
-            "endDate": "CURRENT",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
+            "startDate": "Agu 2024",
+            "endDate": "Sep 2024",
+            "description": "Memiliki keahlian dalam membuat dokumentasi, bekerja sama dengan tim, melakukan pengujian, dan mengelola solusi perangkat lunak ERP untuk penggajian.",
+            "logo": "/logos/logo-company-1.png",
+            "skills": ["Documentation", "Collaboration", "Testing", "Management"]
         },
         {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2023",
-            "endDate": "09/2023",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2022",
-            "endDate": "12/2022",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1"]
-        },
-        {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
-            "startDate": "01/2021",
-            "endDate": "12/2021",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
+            "title": "Backend Developer Intern",
+            "company": "Kedaireka.id",
+            "href": "https://kedaireka.id/",
+            "startDate": "Feb 2024",
+            "endDate": "Jun 2024",
+            "description": "Membuat API backend menggunakan Golang, yang berinteraksi dengan SQL dan JSON, serta dilengkapi dengan unit testing.",
+            "logo": "/logos/logo-company-2.png",
+            "skills": ["Golang","API", "SQL","JSON", "Testing"]
         }
     ],
     "education": [
         {
-            "subject": "University Subject",
-            "degree": "Master of Science",
-            "university": "University Name", 
+            "subject": "Information Systems",
+            "degree": "Master of Computer Science",
+            "university": "Gunadarma University", 
             "href": "",
-            "startDate": "2022", 
-            "endDate": "NOW", 
-            "description": "Short description of your degree."
-        },
-        {
-            "subject": "University Subject",
-            "degree": "Bachelor of Science",
-            "university": "University Name", 
-            "href": "",
-            "startDate": "2017", 
-            "endDate": "2020", 
-            "description": "Short description of your degree."
+            "startDate": "2021", 
+            "endDate": "Present", 
+            "description": "Highly achieving Information Systems student (GPA: 3.95/4.00) in the Excellent Class at Universitas Gunadarma, with a comprehensive understanding of algorithms, database management, web development, and system implementation."
         }
     ],
     "volunteering": [
@@ -104,27 +77,29 @@
             "description": "Short description of your role at the event."
         }
     ],
-    "projects": [
+    "freelanceProjects": [
         {
-            "name": "two-column-portfolio",
-            "framework": "next.js",
-            "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
-            "href": "https://github.com/karlgrossmann/two-column-portfolio",
-            "stars": "0"
+            "name": "PPDB MAN 1 Bogor",
+            "role": "fullstack developer",
+            "description": "MAN 1 Bogor's online registration portal offers a modern and efficient way for new student enrollment, eliminating paperwork and allowing remote applications for a positive first impression.",
+            "href": "https://github.com/Ibnuardhian/ppdb-new",
+            "stacks": ["Tailwind", "Alpine.js", "Laravel", "Livewire", "PostgreSQL"]
         },
-       {
-            "name": "example-project",
-            "framework": "javascript",
-            "description": "Short description of your project.",
+        {
+            "name": "MAN 1 Bogor Website",
+            "role": "fullstack developer",
+            "description": "Designed and built a website homepage/school profile, demonstrating skills in web development, user interface, and content presentation for MAN 1 Bogor.",
+            "href": "https://github.com/Ibnuardhian/LandingMAN",
+            "stacks": ["Tailwind", "Alpine.js", "Laravel", "PostgreSQL"]
+        }
+    ],
+    "personalProjects": [
+        {
+            "name": "CATAT!",
+            "role": "fullstack developer",
+            "description": "Effortlessly manage your notes, tasks, and reminders with this web app. Designed for simplicity and speed, it enhances your productivity without needing a database.",
             "href": "",
-            "stars": "2,712"
-       },
-       {
-        "name": "example-project-2",
-        "framework": "flutter",
-        "description": "Short description of your project.",
-        "href": "",
-        "stars": "1,999"
-        } 
+            "stacks": ["HTML", "javascript", "CSS"]
+        }
     ]
 }
