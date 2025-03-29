@@ -17,9 +17,9 @@ module.exports = {
       'primary': {
         100: '#194bff',
         200: '#525dff',
-        300: '#7170ff',
+        300: '#B6FFA1',
         400: '#8b83ff',
-        500: '#a197ff',
+        500: '#00FF9C',
         600: '#b6abff'
       },
       'surface': {

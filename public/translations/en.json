@@ -6,23 +6,23 @@
         "headlineSuffix": "with a proven ability to quickly learn and apply new technologies to build robust and scalable solutions.",
         "about": [
             "Hey there! 👋",
-            "Information Systems student leveraging web development and database administration skills to excel as a Backend Developer, Data Engineer, and Fullstack Developer. Proficient in various programming languages and databases. Highly curious, passionate about technology, and adept at solving complex problems innovatively.",
-            "I'm a gamer and Freelance badminton player"
+            "Information Systems student leveraging web development and database administration skills to excel as a Backend Developer, Data Engineer, and Fullstack Developer. Proficient in various programming languages and databases. Highly curious, passionate about technology, and adept at solving complex problems innovatively."
         ],
         "socials": {
             "email": "ibnuardhian@gmail.com",
             "linkedin": "https://www.linkedin.com/in/ibnuardhian",
             "github": "https://github.com/Ibnuardhian/"
-        }
+        },
+        "profileImage": "/images/profile-image.png"
     },
     "experiences": [
         {
             "title": "Associate Product Manager Intern",
             "company": "PT. Electronic Data Interchange Indonesia",
             "href": "",
-            "startDate": "Agu 2024",
+            "startDate": "Aug 2024",
             "endDate": "Sep 2024",
-            "description": "Memiliki keahlian dalam membuat dokumentasi, bekerja sama dengan tim, melakukan pengujian, dan mengelola solusi perangkat lunak ERP untuk penggajian.",
+            "description": "Expertise in creating documentation, working with teams, testing, and managing ERP software solutions for payroll..",
             "logo": "/logos/logo-company-1.png",
             "skills": ["Documentation", "Collaboration", "Testing", "Management"]
         },
