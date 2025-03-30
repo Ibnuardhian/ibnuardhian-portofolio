@@ -2,7 +2,7 @@
     "general": {
         "name": "Muhammad Ibnu Ardhiansyah",
         "headline": "I'm a self-taught",
-        "typewriterStrings": ["Backend Developer.", "Database Engineer.", "Fullstack Developer"],
+        "typewriterStrings": ["Backend Developer.", "Database Engineer.", "Fullstack Developer."],
         "headlineSuffix": "with a proven ability to quickly learn and apply new technologies to build robust and scalable solutions.",
         "about": [
             "Hey there! 👋",
@@ -32,7 +32,7 @@
             "href": "https://kedaireka.id/",
             "startDate": "Feb 2024",
             "endDate": "Jun 2024",
-            "description": "Membuat API backend menggunakan Golang, yang berinteraksi dengan SQL dan JSON, serta dilengkapi dengan unit testing.",
+            "description": "Created a backend API using Golang, which interacts with SQL and JSON, and is equipped with unit testing.",
             "logo": "/logos/logo-company-2.png",
             "skills": ["Golang","API", "SQL","JSON", "Testing"]
         }
