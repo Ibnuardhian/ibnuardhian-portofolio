@@ -35,6 +35,7 @@ const Navigation = () => {
             <NavItem active={activeSection === 'education' ? true : false} href='#education' num='03' name="EDUCATION"></NavItem>
             <NavItem active={activeSection === 'freelance-projects' ? true : false} href='#freelance-projects' num='04' name="FREELANCE PROJECTS"></NavItem>
             <NavItem active={activeSection === 'personal-projects' ? true : false} href='#personal-projects' num='05' name="PERSONAL PROJECTS"></NavItem>
+            <NavItem active={activeSection === 'certifications' ? true : false} href='#certifications' num='06' name="CERTIFICATIONS"></NavItem>
             {/* <NavItem active={activeSection === 'volunteering' ? true : false} href='#volunteering' num='06' name="VOLUNTEERING"></NavItem> */}
         </div>
     )

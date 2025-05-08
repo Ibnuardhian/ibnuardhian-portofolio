@@ -81,15 +81,15 @@
         {
             "name": "PPDB MAN 1 Bogor",
             "role": "fullstack developer",
-            "description": "MAN 1 Bogor's online registration portal offers a modern and efficient way for new student enrollment, eliminating paperwork and allowing remote applications for a positive first impression.",
-            "href": "https://github.com/Ibnuardhian/ppdb-new",
+            "description": "MAN 1 Bogor's online registration portal offers a modern and efficient way for new student registration, eliminating paperwork and allowing remote applications for a positive first impression.",
+            "href": "https://ppdb.man1kotabogor.id/",
             "stacks": ["Tailwind", "Alpine.js", "Laravel", "Livewire", "PostgreSQL"]
         },
         {
-            "name": "MAN 1 Bogor Website",
+            "name": "MAN 1 Bogor Official Website",
             "role": "fullstack developer",
-            "description": "Designed and built a website homepage/school profile, demonstrating skills in web development, user interface, and content presentation for MAN 1 Bogor.",
-            "href": "https://github.com/Ibnuardhian/LandingMAN",
+            "description": "Designed and built a official website, demonstrating skills in web development, user interface, and content presentation for MAN 1 Bogor.",
+            "href": "https://man1kotabogor.id/",
             "stacks": ["Tailwind", "Alpine.js", "Laravel", "PostgreSQL"]
         }
     ],
@@ -100,6 +100,53 @@
             "description": "Effortlessly manage your notes, tasks, and reminders with this web app. Designed for simplicity and speed, it enhances your productivity without needing a database.",
             "href": "",
             "stacks": ["HTML", "javascript", "CSS"]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Certificate of Training : Golang for Intermediate",
+            "organization": "Lembaga Pengembangan Komputerisasi Universitas Gunadarma",
+            "organizationHref": "https://vm.lepkom.gunadarma.ac.id/",
+            "description": "Mastering website development with Go, including unit testing, SQL, HTTP requests, Polymer framework (data binding, styling), to application deployment.",
+            "href": "https://e-sert.gunadarma.ac.id/cert/4013/0b8643d05b660dd365f677eb8188c4e5.pdf",
+            "date": "2024",
+            "skills": ["Golang", "Web Development", "Backend Web Development","JSON", "JWT"]
+        },
+        {
+            "name": "Certificate of Training : Oracle for Intermediate",
+            "organization": "Lembaga Pengembangan Komputerisasi Universitas Gunadarma",
+            "organizationHref": "https://vm.lepkom.gunadarma.ac.id/",
+            "description": "Understand the creation and management of tables, constraints, views, subqueries, explicit cursors, exception handling, and displaying data from multiple tables in a database.",
+            "href": "https://e-sert.gunadarma.ac.id/cert/2679/a7e8f4a01667b1b54910fd2b916cba0b.pdf",
+            "date": "2024",
+            "skills": ["Oracle SQL Development", "SQL","databases"]
+        },
+        {
+            "name": "Belajar Dasar Pemrograman JavaScript",
+            "organization": "Dicoding",
+            "organizationHref": "https://www.dicoding.com/",
+            "description": "Learn the basics of JavaScript programming starting from functions, using ES6 modules, installing packages, using Node.JS and testing.",
+            "href": "https://www.dicoding.com/certificates/0LZ0QWVERZ65",
+            "date": "2023",
+            "skills": ["Backend web development", "javascript","Node.js"]
+        },
+        {
+            "name": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+            "organization": "Dicoding",
+            "organizationHref": "https://www.dicoding.com/",
+            "description": "Learn about using cloud computing by referring to AWS's international competency standards and understand all kinds of services, global infrastructure and pricing. ",
+            "href": "https://www.dicoding.com/certificates/NVP7718YVPR0",
+            "date": "2023",
+            "skills": ["Cloud Computing", "databases","Amazon Web Services (AWS)"]
+        },
+        {
+            "name": "Skill Specialization Backend - Advanced Golang",
+            "organization": "MySkill",
+            "organizationHref": "https://myskill.id/",
+            "description": "Learn Golang to the next level by learning APIs, database connections, using frameworks, authentication and creating mini projects. ",
+            "href": "https://storage.googleapis.com/myskill-v2-certificates/topic-HlI5ftKc3iNRjMOwie1f/t2MDrMIXndbzmlDdMgjpoftncWF3-pgX2OUzzpt2O4kWDI76Z.pdf",
+            "date": "2023",
+            "skills": ["Backend Web Development", "Golang"]
         }
     ]
 }
