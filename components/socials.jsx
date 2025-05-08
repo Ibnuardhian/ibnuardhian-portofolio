@@ -4,8 +4,8 @@ import Image from 'next/image';
 const Socials = (props) => {
     return (
         <div className='flex flex-row items-center'>
-            <a href={`mailto:${props.data.email}`} className='mr-10 transition-all bg-primary-500 hover:bg-primary-300 text-surface-100 font-bold py-2 px-8 rounded flex flex-row justify-center items-center'>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+            <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${props.data.email}`} className='mr-10 transition-all bg-primary-500 hover:bg-surface-100 text-surface-100 hover:text-primary-500 font-bold py-2 px-8 rounded flex flex-row justify-center items-center hover:border-2 hover:border-primary-500'>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 transition-all hover:stroke-primary-500">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
                 <span className='pl-2'>Get in touch</span>
@@ -20,7 +20,6 @@ const Socials = (props) => {
                     <div className=''>LinkedIn</div>
                 </a>
             </div>
-            
         </div>
     )
 }
